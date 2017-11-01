@@ -1,0 +1,14 @@
+Wendy Y H WANG (wendyyhwang@hsbc.com.hk); Hayley H Y HUANG (hayleyhyhuang@hsbc.com.cn); Bruce K CHEN <bruce.k.chen@noexternalmail.hsbc.com>; Isabella Y L ZHANG <isabella.y.l.zhang@hsbc.com.cn> (isabella.y.l.zhang@hsbc.com.cn)
+
+
+
+
+Hi 各位，
+
+	今天QFII生产系统发生无法正常开市，目前调查结果如下：
+
+	原因：DCOM网关机SFTP服务端未正常工作，造成APP server无法通过SFTP取得中登的开市请求文件所致，该SFTP服务端为行内提供的Pragma Fortress软件，由于异常期间未打出报错信息，暂时无法查明细节
+应急方案：重启DCOM server、DCOM客户端、App server的相关SFTP进程
+	建议措施：重新安装SFTP服务端软件（查询前60天日志，时有出现error日志，原因未知），增加SFTP异常监控邮件提醒功能
+
+Regards
